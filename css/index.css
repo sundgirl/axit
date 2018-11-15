@@ -1,0 +1,94 @@
+.logo-header{
+    height: 20px;
+    margin-left: 16%;
+}
+
+.navbar-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-item{
+    color: #fff;
+    padding: 8px;
+}
+
+.jumbotron{
+    background-image: url("../img/header-image.jpg");
+    padding-left: 100px;
+    background-color: transparent;
+}
+
+.logo-jumbotron{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.jumbotron-text{
+    
+}
+.jumbotron-text p{
+    color: #fff;
+}
+.jumbotron-text  h1{
+    font-size: 24px;
+    color: #fff;
+}
+.jumbotron-form{
+    width: 85%;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.form-header{
+    background-color: #f2f2f2;
+    padding: 5px 50px 5px 50px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px 10px 0px 0px;
+}
+.orange{
+    color:#ff9b51;
+}
+.form-body{
+    padding: 5px 50px 5px 50px;
+}
+.form-body input{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form-footer{
+    background-color: #ff9b51;
+    padding: 10px 50px 10px 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+.form-footer input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+@media (max-width:991px) {
+    .navbar-position{
+        justify-content: flex-start;
+    }
+    .form-body{
+        padding: 5px 20px 5px 20px;
+    }
+}
+@media (max-width:772px) {
+    .jumbotron-text{
+        display: none;
+    }
+    .jumbotron-form{
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .jumbotron-form{
+        margin-top: 0px;
+    }
+}
