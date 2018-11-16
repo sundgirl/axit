@@ -1,5 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .bg-dark{
     background-color: black!important;
+}
+
+.navbar{
+    border-bottom: 2px solid white;
 }
 .logo-header{
     height: 20px;
@@ -21,6 +29,8 @@
     background-image: url("../img/header-image.jpg");
     padding-left: 100px;
     background-color: transparent;
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 
 .logo-jumbotron{
@@ -28,12 +38,10 @@
     margin-bottom: 10px;
 }
 
-.jumbotron-text{
-    
-}
 .jumbotron-text p{
     color: #fff;
 }
+
 .jumbotron-text  h1{
     font-size: 24px;
     color: #fff;
@@ -45,11 +53,11 @@
     border: 2px solid white;
     color: #fff;
 }
+
 .jumbotron-form{
     width: 85%;
     background-color: #fff;
     border-radius: 10px;
-    
 }
 
 .form-header{
@@ -59,47 +67,450 @@
     font-size: 18px;
     border-radius: 10px 10px 0px 0px;
 }
+
 .orange{
     color:#ff9b51;
 }
+
 .form-body{
     padding: 5px 50px 5px 50px;
 }
+
 .form-body input{
     width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .form-footer{
     background-color: #ff9b51;
     padding: 10px 50px 10px 50px;
     border-radius: 0px 0px 10px 10px;
 }
+
 .form-footer input{
     background-color: transparent;
     border: none;
     color: #fff;
 }
+
+.social-media{
+    background-color: #fff;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.social-text{
+    padding: 5px 0px 5px 100px;
+}
+
+.social-logo{
+    letter-spacing: 25px;
+    padding: 40px 0px 0px 50px;
+    color:grey;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.first-features{
+    display: grid;
+    grid-template-columns: 250px auto auto;
+    grid-column-gap: 20px;
+    padding: 120px 0 100px 0;
+    background-color: #f5f5f5;
+}
+
+.first-tabs{
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto 0 auto;
+}
+
+.first-tabs button{
+    background-color: #333333;
+    border: none;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+
+.first-text button{
+    background-color: #ff9b51;
+    border: none;
+    height: 50px;
+    color: #fff;
+    padding: 4px 20px 4px 20px;
+    border-radius: 5px;
+}
+
+.first-image img{
+   width: 270px;
+   margin: 0 30px 0 auto;
+}
+
+.second-features{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 100px 0 80px 0;
+    text-align: justify;
+}
+
+.sub-section{
+    display: flex;
+    flex-direction:row;
+    text-align: justify;
+}
+
+.sub-text {
+    padding-left: 40px; 
+}
+
+.second-image img{
+    width: 100%;
+}
+
+.second-text{
+    margin: 5px 20px 0px 10px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.third-features{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #f5f5f5;
+    padding: 60px 20px 0px 10px;
+}
+
+.third-image img{
+    width: 100%;
+}
+
+.third-text{
+    padding-left: 40px; 
+    padding-right: 40px; 
+    text-align: justify;
+}
+
+.process{
+    padding: 60px 20px 0px 10px;
+}
+
+.process-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px; 
+    padding: 60px 20px 60px 0px;
+}
+
+.pricing-option{
+    padding: 100px 0 80px 0;
+    background-color: #f5f5f5;
+}
+
+.price-col{
+    margin:0 40px 0px 40px;
+}
+.price-text{
+    padding: 0px 20px 60px 0px;
+}
+
+.item1, .item3{
+    padding-top: 55px;
+}
+
+.price-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #fff;
+    grid-column-gap: 30px; 
+}
+
+.bas{
+    background-color: #333333;
+    padding: 10px 20px 10px 20px;
+    margin: 0px;
+    border-bottom:1px white solid;
+}
+
+.dol{
+    background-color: #333333;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 5px solid #ff9b51;
+}
+
+.dol2{
+    background-color: #333333;
+    padding: 10px 20px 10px 20px;
+}
+
+.big-price{
+    font-size: 70px;
+}
+
+.biger-price{
+    font-size: 80px;
+}
+
+.orange-price{
+    background-color: #ff9b51;
+    padding:10px 0 10px 0;
+    margin:0px;
+}
+
+.background-white{
+    background-color: #fff;
+    color:#86878b
+}
+.background-white p{
+    border-bottom: 1px solid #f5f5f5;
+    padding: 10px 0 10px 0;
+}
+
+.feedback{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.feedback-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.person-name {
+    padding-left: 20px;
+    line-height: 5px;
+}
+
+.feed {
+    text-align: justify;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.stylish{
+    background-image: url("../img/footer-image.jpg");
+    padding: 50px;
+    color: #fff;
+}
+
+.contact {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+
+.nep{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.nep input{
+    width: 70%;
+    height:40px;
+    margin: 15px 0 15px 0;
+}
+
+.mes input {
+    width: 70%;
+    height: 210px;
+
+}
+
+.but-width{
+    width: 130px;
+    height:40px;
+    background-color: #ff9b51;
+    border: none;
+    color: #fff;
+    margin: 25px 0 25px 0;
+}
+
+.footer-background{
+    background-color: black;
+}
+
+.social-logo-footer{
+    letter-spacing: 25px;
+    padding: 20px 0px 0px 50px;
+    color: #fff;
+}
+
+.footer-background p{
+    color: #fff;
+    padding-top: 10px;
+}
+
 @media (max-width:991px) {
     .navbar-position{
         justify-content: flex-start;
     }
+    
     .form-body{
         padding: 5px 20px 5px 20px;
     }
+    
+    .social-logo{
+        letter-spacing: 13px;
+        padding: 40px 0px 0px 20px;
+    }
+    
+    .first-image img{
+       display: none;
+    }
+    
+    .second-features{
+        display: flex;
+        flex-direction:column;
+        padding: 40px 0 0px 0;
+    }
+    
+    .second-image img{
+        text-align: center;
+    }
+    
+    .third-features{
+        display: flex;
+        flex-direction:column;
+        padding: 40px 0 0px 0;
+    }
+    
+    .process-grid{
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .item {
+        padding-bottom: 30px;
+    }
+    
+    .contact-form{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 70px;
+    }
+    
+    .nep{
+        margin-left: 16%;
+    }
+
+    .nep input{
+    width: 80%;
+    }
 }
-@media (max-width:766px) {
+@media (max-width:767px) {
     .jumbotron-text{
         display: none;
     }
+    
     .jumbotron-form{
         margin-top: -30px;
+        border-radius: 0px;
+    }
+    
+    .social-media{
+        display: none;
+    }
+    
+    .first-features{
+        display: flex;
+        flex-direction:column;
+        padding: 40px 0 0px 0;
+    }
+    
+    .first-tabs{
+        flex-direction:row;
+        margin: 0 auto 0 auto;
+    }
+    
+    .first-tabs button{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .first-text{
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .center{
+        text-align: center;
+    }
+    
+    .second-features{
+        padding: 40px 0 0px 0;
+    }
+    
+    .price-col {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .feedback-grid {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 20px;    
+    }
+    
+    .feed, .person{
+        padding:20px;
     }
 }
 
 @media (max-width: 576px) {
-    .jumbotron-form{
-        margin-top: 0px;
-        margin-left: -20px;
+    .jumbotron{
+        padding: 0px;
+        margin: 0px; 
     }
+    
+    .jumbotron-form{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .bold{
+        font-size: 18px;
+    }
+    
+    .social-logo-footer{
+        letter-spacing: 8px;
+        padding: 20px 0px 0px 13px;
+        color: #fff;
+    }
+    
+    .pricing-option{
+        padding: 40px 0 30px 0;
+    }
+    
+    .feedback{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .contact {
+        margin-top: 40px;
+        margin-bottom: 30px;
+}
 }
