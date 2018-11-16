@@ -1,3 +1,6 @@
+.bg-dark{
+    background-color: black!important;
+}
 .logo-header{
     height: 20px;
     margin-left: 16%;
@@ -33,6 +36,13 @@
 }
 .jumbotron-text  h1{
     font-size: 24px;
+    color: #fff;
+}
+
+.button-style{
+    background-color: transparent;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid white;
     color: #fff;
 }
 .jumbotron-form{
@@ -78,7 +88,7 @@
         padding: 5px 20px 5px 20px;
     }
 }
-@media (max-width:772px) {
+@media (max-width:766px) {
     .jumbotron-text{
         display: none;
     }
@@ -90,5 +100,6 @@
 @media (max-width: 576px) {
     .jumbotron-form{
         margin-top: 0px;
+        margin-left: -20px;
     }
 }
